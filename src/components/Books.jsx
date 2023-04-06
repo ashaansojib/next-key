@@ -4,9 +4,8 @@ import Book from './Book';
 
 const Books = () => {
     const {books} = useLoaderData();
-    console.log(books)
     return (
-        <div className='grid grid-cols-3 space-x-4 space-y-2'>
+        <div className='grid grid-cols-3 py-4'>
             {
                 books.map( book => <Book
                 key={book.isbn13}
