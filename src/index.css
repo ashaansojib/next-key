@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+li a{
+    @apply font-semibold hover:text-green-600;
+}
+.my-container{
+@apply w-[1000px] mx-auto;
+}
